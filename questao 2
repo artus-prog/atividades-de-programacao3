@@ -1,5 +1,5 @@
 numero = float(input("Digite um número para calculá-lo ao quadrado: "))
 if numero > 0:
-    print(f"O valor do número ao quadrado é {numero**2}")
+    print(f"O valor do número ao quadrado é {numero**0.5}")
 if numero < 0:
     print("O número digitado é inválido para essa ecuação")
