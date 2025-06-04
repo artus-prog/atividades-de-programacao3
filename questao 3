@@ -1,0 +1,7 @@
+numero = float(input("Digite um número real: "))
+if numero >= 0:
+    raiz = numero **0.5
+    print(f"A raiz desse número é: {raiz}")
+if numero < 0:
+    potencia = numero **2
+    print(f"A potencia desse número é: {potencia}")
