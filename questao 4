@@ -1,0 +1,7 @@
+numero = float(input("Digite um número: "))
+if numero >=0:
+    raiz = numero **0.5
+    potencia = numero **2
+    print(f"A potência do número é {potencia}e a raiz é {raiz}")
+elif numero <0:
+    print("Este número não é válido")
