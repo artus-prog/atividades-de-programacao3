@@ -1,0 +1,8 @@
+numero1 = int(input("Digite o primeiro número "))
+numero2 = int(input("Digite o segundo numero "))
+if numero1 > numero2:
+    diferença = numero1 - numero2
+    print(f"O numero 1 é maior e a sua diferença é de {diferença}")
+elif numero2 > numero1:
+    diferença = numero2 - numero1
+    print(f"O número 2 é maior e a diferença é de {diferença}")
